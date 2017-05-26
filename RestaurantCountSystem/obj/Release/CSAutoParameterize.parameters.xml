@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-RestaurantCountSystem-20160705121311.mdf;Initial Catalog=aspnet-RestaurantCountSystem-20160705121311;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Documents\\Visual\ Studio\ 2015\\Projects\\RestaurantCountSystem\\RestaurantCountSystem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="resuseConnectionString-Web.config Connection String" description="resuseConnectionString 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=WINDOWS-AVAKHHK;Initial Catalog=resuse;Persist Security Info=True;User ID=sa;Password=0000" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Documents\\Visual\ Studio\ 2015\\Projects\\RestaurantCountSystem\\RestaurantCountSystem\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='resuseConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
